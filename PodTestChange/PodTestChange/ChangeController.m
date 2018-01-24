@@ -6,13 +6,13 @@
 //  Copyright © 2018年 anjuke. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ChangeController.h"
 
-@interface ViewController ()
+@interface ChangeController ()
 
 @end
 
-@implementation ViewController
+@implementation ChangeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

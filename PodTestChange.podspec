@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PodTestChange"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "It will be the first of my son."
   s.description  = <<-DESC     
                           PodTestChange 是一个用于测试的demo,希望能够通过                                     

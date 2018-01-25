@@ -6,4 +6,4 @@ source 'git@github.com:LuCkY1314/MySpec.git'
 target 'PodTestChange' do
 
  pod 'Masonry'
- end
+end

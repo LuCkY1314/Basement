@@ -10,9 +10,7 @@
 		7344868A6B9118E6181E4A9A /* libPods-PodTestChange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 588CF93229694FD64D4EDF50 /* libPods-PodTestChange.a */; };
 		92B1B61620183F7F009EBC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B61520183F7F009EBC91 /* AppDelegate.m */; };
 		92B1B61920183F7F009EBC91 /* ChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B61820183F7F009EBC91 /* ChangeController.m */; };
-		92B1B61C20183F7F009EBC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1B61A20183F7F009EBC91 /* Main.storyboard */; };
 		92B1B61E20183F7F009EBC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1B61D20183F7F009EBC91 /* Assets.xcassets */; };
-		92B1B62120183F7F009EBC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1B61F20183F7F009EBC91 /* LaunchScreen.storyboard */; };
 		92B1B62420183F7F009EBC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B62320183F7F009EBC91 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +22,7 @@
 		92B1B61520183F7F009EBC91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		92B1B61720183F7F009EBC91 /* ChangeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeController.h; sourceTree = "<group>"; };
 		92B1B61820183F7F009EBC91 /* ChangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeController.m; sourceTree = "<group>"; };
-		92B1B61B20183F7F009EBC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92B1B61D20183F7F009EBC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92B1B62020183F7F009EBC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B1B62220183F7F009EBC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92B1B62320183F7F009EBC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F5905C29F53812A0D6B012 /* Pods-PodTestChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestChange.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PodTestChange/Pods-PodTestChange.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,9 +65,7 @@
 				92B1B61520183F7F009EBC91 /* AppDelegate.m */,
 				92B1B61720183F7F009EBC91 /* ChangeController.h */,
 				92B1B61820183F7F009EBC91 /* ChangeController.m */,
-				92B1B61A20183F7F009EBC91 /* Main.storyboard */,
 				92B1B61D20183F7F009EBC91 /* Assets.xcassets */,
-				92B1B61F20183F7F009EBC91 /* LaunchScreen.storyboard */,
 				92B1B62220183F7F009EBC91 /* Info.plist */,
 				92B1B62320183F7F009EBC91 /* main.m */,
 			);
@@ -156,9 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B1B62120183F7F009EBC91 /* LaunchScreen.storyboard in Resources */,
 				92B1B61E20183F7F009EBC91 /* Assets.xcassets in Resources */,
-				92B1B61C20183F7F009EBC91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,25 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		92B1B61A20183F7F009EBC91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B1B61B20183F7F009EBC91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92B1B61F20183F7F009EBC91 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B1B62020183F7F009EBC91 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92B1B62520183F7F009EBC91 /* Debug */ = {

@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.source 	 = { :git => "https://github.com/LuCkY1314/Basement.git", :tag => s.version }
   s.source_files = "PodTestChange", "PodTestChange/**/*.{h,m}"
   s.requires_arc = true
+  s.dependency 'Masonry'
 end

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7344868A6B9118E6181E4A9A /* libPods-PodTestChange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 588CF93229694FD64D4EDF50 /* libPods-PodTestChange.a */; };
-		92B1B61620183F7F009EBC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B61520183F7F009EBC91 /* AppDelegate.m */; };
 		92B1B61920183F7F009EBC91 /* ChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B61820183F7F009EBC91 /* ChangeController.m */; };
 		92B1B61E20183F7F009EBC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1B61D20183F7F009EBC91 /* Assets.xcassets */; };
 		92B1B62420183F7F009EBC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B62320183F7F009EBC91 /* main.m */; };
@@ -18,8 +17,6 @@
 		3BE34E3F9829B2202F6E5FB8 /* Pods-PodTestChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestChange.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PodTestChange/Pods-PodTestChange.release.xcconfig"; sourceTree = "<group>"; };
 		588CF93229694FD64D4EDF50 /* libPods-PodTestChange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodTestChange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1B61120183F7F009EBC91 /* PodTestChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTestChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B1B61420183F7F009EBC91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92B1B61520183F7F009EBC91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		92B1B61720183F7F009EBC91 /* ChangeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeController.h; sourceTree = "<group>"; };
 		92B1B61820183F7F009EBC91 /* ChangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeController.m; sourceTree = "<group>"; };
 		92B1B61D20183F7F009EBC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,8 +58,6 @@
 		92B1B61320183F7F009EBC91 /* PodTestChange */ = {
 			isa = PBXGroup;
 			children = (
-				92B1B61420183F7F009EBC91 /* AppDelegate.h */,
-				92B1B61520183F7F009EBC91 /* AppDelegate.m */,
 				92B1B61720183F7F009EBC91 /* ChangeController.h */,
 				92B1B61820183F7F009EBC91 /* ChangeController.m */,
 				92B1B61D20183F7F009EBC91 /* Assets.xcassets */,
@@ -214,7 +209,6 @@
 			files = (
 				92B1B61920183F7F009EBC91 /* ChangeController.m in Sources */,
 				92B1B62420183F7F009EBC91 /* main.m in Sources */,
-				92B1B61620183F7F009EBC91 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

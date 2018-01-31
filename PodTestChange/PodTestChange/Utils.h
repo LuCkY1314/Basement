@@ -10,5 +10,5 @@
 #import <UIKit/UIKit.h>
 @interface Utils : NSObject
 
-- (void)makeButtonContainerLayout:(UIButton *)button withImagePosition:(UIImageOrientation)orientation withMargin:(CGFloat)margin;
++ (void)makeButtonContainerLayout:(UIButton *)button withImagePosition:(UIImageOrientation)orientation withMargin:(CGFloat)margin;
 @end

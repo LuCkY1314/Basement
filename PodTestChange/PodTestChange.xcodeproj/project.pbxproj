@@ -10,6 +10,7 @@
 		7344868A6B9118E6181E4A9A /* libPods-PodTestChange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 588CF93229694FD64D4EDF50 /* libPods-PodTestChange.a */; };
 		92B1B61920183F7F009EBC91 /* ChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B61820183F7F009EBC91 /* ChangeController.m */; };
 		92B1B61E20183F7F009EBC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1B61D20183F7F009EBC91 /* Assets.xcassets */; };
+		92B1B64E20206300009EBC91 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1B64D20206300009EBC91 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		92B1B61820183F7F009EBC91 /* ChangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeController.m; sourceTree = "<group>"; };
 		92B1B61D20183F7F009EBC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B1B62220183F7F009EBC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B1B64C20206300009EBC91 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		92B1B64D20206300009EBC91 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		C4F5905C29F53812A0D6B012 /* Pods-PodTestChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestChange.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PodTestChange/Pods-PodTestChange.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +63,8 @@
 				92B1B61820183F7F009EBC91 /* ChangeController.m */,
 				92B1B61D20183F7F009EBC91 /* Assets.xcassets */,
 				92B1B62220183F7F009EBC91 /* Info.plist */,
+				92B1B64C20206300009EBC91 /* Utils.h */,
+				92B1B64D20206300009EBC91 /* Utils.m */,
 			);
 			path = PodTestChange;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B1B61920183F7F009EBC91 /* ChangeController.m in Sources */,
+				92B1B64E20206300009EBC91 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
